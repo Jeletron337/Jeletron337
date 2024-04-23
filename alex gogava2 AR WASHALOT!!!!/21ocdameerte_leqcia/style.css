@@ -1,0 +1,93 @@
+:root{
+    --ragaccvladi: #ffffff;
+    --main_padding: 30px;
+}
+
+
+.responsive{
+    background-color: red;
+    height: 600px;
+    width: 600px;
+}
+@media screen and (max-width:600px){
+    .responsive{
+        background-color: blue;
+        width: 200px;
+        height: 200px;
+    }
+
+    
+}
+@media screen and (min-width:1000px) {
+    .responsive{
+        background-color: yellow;
+        width: 100vw;
+        height: 100vh;
+        padding: var(--main_padding);
+    }
+    
+    
+}
+.flex_responsive{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+}
+.flex_responsive div{
+   width: 300px;
+   background-color: red;
+   height: 300px;
+}
+@media screen and (max-width:1200px) {
+    .flex_responsive{
+        flex-direction: column;
+    }
+    .flex_responsive div{
+        width: 80%;
+    }
+}
+input:required{
+    border: 3px solid red;
+} 
+
+.maximum{
+ width: calc(100vw - 16px);
+ height: 199px;
+ background-color: aquamarine;
+ transform: rotate(calc(30deg*3));
+}
+
+.transition_button{
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background: rgb(90,90,255);
+    background: linear-gradient(90deg, rgba(90,90,255,1) 27%, rgba(7,0,120,1) 72%, rgba(4,166,199,1) 100%);
+    padding: 10px 15px;
+    width: 300px;
+    transform: rotate(0deg);
+    
+}
+.transition_button:hover{
+    width: 400px;
+    background: rgb(255,250,90);
+background: linear-gradient(90deg, rgba(255,250,90,1) 27%, rgba(120,0,0,1) 72%, rgba(187,4,199,1) 100%);  
+     transition: all 4s ease-in;
+     transform: rotate(90deg)
+}
+@keyframes saxeli{
+    0%{
+        background-color: aqua;
+    }
+    100%{
+        background-color: chartreuse;
+    }
+}
+.animacia{
+    animation: saxeli;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+
+}

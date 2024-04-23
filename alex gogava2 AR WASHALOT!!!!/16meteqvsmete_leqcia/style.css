@@ -1,0 +1,54 @@
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+  text-align-last: center;
+}
+.parent {
+  background-color: red;
+  padding: 20px;
+  width: 100%px;
+  height: 50px;
+  overflow-x: hidden; /* scrolls qmnis tu rames gadacda*/
+  overflow: y ;
+}
+
+.child {
+  background-color: black;
+  width: 150%;
+  height: 150px;
+}
+
+/* .news {
+  background-color: rgb(22, 255, 255);
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  padding: 20px 0;
+}
+.box {
+  background-color: orange;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 40dvh;
+  font-size: xx-large;
+  font-weight: bolder;
+   cursor: pointer; rom clickis kursosi gagichdes 
+}
+body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+.box:hover{
+    color: yellow;
+    back
+} */

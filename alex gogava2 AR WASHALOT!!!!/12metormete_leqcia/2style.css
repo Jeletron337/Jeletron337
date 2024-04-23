@@ -1,0 +1,49 @@
+.h1 {
+  color: blue;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+}
+/* ase iwereba komentari da kidev text shadowis dialeqti tu rac qvia 1.marcxniv marjniv/ 2.zmot qvemot/ 3,bluri/ 4.feris micema// anu l-r_up-dwn_bluriness_tacolor*/
+
+.blank_text {
+  font-size: 10px;
+}
+
+.blank_text p {
+  color: red;
+  width: 100%;
+  font-size: 2em;
+}
+/* 
+.percentage_difference {
+  background-color: red;
+  width: 70%;
+}
+
+.wievport_difference {
+  color: aqua;
+}
+
+.wievport_difference {
+  width: 100vw;
+  height: 100vh;
+}
+.full {
+  background-color: aquamarine;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+} */
+
+.layout {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border: 2px solid black;
+}
+.layout h1 {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: red;
+}

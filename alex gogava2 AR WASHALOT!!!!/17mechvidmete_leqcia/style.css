@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .section_1 {
+    /* ჩაბნელებული ფერის დამატება სურათზე და სურათის ჩასმა */
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.55),
+        rgba(0, 0, 0, 0.55)
+      ),
+      url(three-men-with-drawing-discussing-construction-site.jpg);
+    /* სურათისთვის ბექგრაუნდ პოზიციის მინიჭება, რომ მოთავსდეს სურათის შუა ნაწილი */
+    background-position: 50% 50%;
+    /* არ განმეორდეს სურათი ბევრჯდერ */
+    background-repeat: no-repeat;
+    /* ავსებს სივრცეს სურათით, შეიძლება ჩამოჭრას სურათის გარკვეული ნაწილი */
+    background-size: cover;
+    padding: 30px 0 200px;
+    height: 70vh;
+  }
+  
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .nav_bar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 30px;
+  }
+  
+  .nav_bar ul li {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .contact_us {
+    background-color: #00000050;
+    width: 30vw;
+    margin: 100px auto 0;
+    padding: 30px 50px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .contact_us h1 {
+    font-size: 4.5rem;
+    margin: 0;
+  }
+  
+  .contact_us p {
+    font-size: 1.2rem;
+  }
+  
+  .contact_us button {
+    padding: 10px;
+    border-radius: 0;
+    border: none;
+    color: #fff;
+    background-color: #ffbb08;
+  }
+  
+  .contact_us button:hover {
+    background-color: #ed9f08;
+}
+  .sect_2_wrapper{
+    padding: 50px auto 50px;
+  }
+ 
+  .sect_2_buttons{
+    display: flex;
+    justify-content: center;
+  }
+  .sect_2_buttons button{
+    width: 350px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #fff;
+    border: none;
+    font-weight: 900;
+  }
+  .sect_2_buttons button:active,
+  .sect_2_buttons button:nth-child(1){
+    background-color: #fff;
+    background-color: #f7ac19;
+  }
+  
+  .sect_2_desc{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+  }
+  .desc_img {
+    width:400px;
+    height: 400px;
+    
+  }
+  .desc_img img{
+    width: 100%;
+    height: 100%;
+  }
+ .desc_text{
+  width: 40vw;
+}
+.desc_text p{
+    color: #999;
+    line-height: 1.5;
+}
+.desc_text ul{
+    padding-left:20px; 
+    line-height: 1.5;
+
+}

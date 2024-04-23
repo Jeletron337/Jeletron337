@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        button {
+            background-color: orange;
+            border-radius:  8px;
+            border: none;
+            padding: 20px;
+            cursor: pointer;
+            font-size: large;
+            font-weight: 900;
+            font-family: "Poppins" sans-serif;
+        }
+        button:hover{
+            background-color: red;
+            transition: all 0.5s ease-in;
+         }
+         #paragraph{
+            font-size: 40px;
+            color: red;
+         }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, velit!</h1>
+    <p id="paragraph">0</p>
+    <button onclick="increment()">გაზარდე რიცხვი"</button>
+    <p2 class="do"></p2>
+    <p2 class="do"></p2>
+    <script src="scrripts.js">
+    var paragraphI = document.getElementById("paragraph");
+    var counter = 0;
+    function increment() {
+     counter = counter + 1;   
+     paragraphI.innerHTML = counter;
+    }
+    
+
+
+
+
+    </script>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      button {
+        background-color: orange;
+        border-radius: 8px;
+        border: none;
+        padding: 20px;
+        cursor: pointer;
+        font-size: larger;
+        font-weight: 900;
+        font-family: "Poppins", sans-serif;
+      }
+      button:hover {
+        background-color: red;
+        transition: all 0.5s ease-in;
+      }
+      #shesacvleli_p {
+        font-size: 40px;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome To our website!</h1>
+    <p id="shesacvleli_p">0</p>
+    <button onclick="increment()">გაზარდე რიცხვი</button>
+    <script>
+      var shesacvleliP = document.getElementById("shesacvleli_p");
+      var counter = 0;
+      function increment() {
+        counter = counter + 1;
+        shesacvleliP.innerHTML = counter;
+      }
+    </script>
+  </body>
+</html>

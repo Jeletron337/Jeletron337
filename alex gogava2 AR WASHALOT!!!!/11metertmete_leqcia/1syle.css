@@ -1,0 +1,48 @@
+h1 {
+  color: green;
+  background-color: aqua;
+}
+
+#test {
+  background-color: aliceblue;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 5px 5px 5px blue;
+
+}
+
+.plus {
+  color: aqua;
+}
+p.dude {
+  color: rgb(199, 20, 20);
+  text-shadow: 5px 5px 5px;
+}
+h3.dude {
+  color: burlywood;
+}
+.dude1 {
+  color: red;
+}
+.dude2 {
+  color: aquamarine;
+}
+.dude3 {
+  color: chartreuse;
+}
+
+h4,
+h5,
+h6 {
+  color: aqua;
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+}
+.dog {
+color: olive;
+  /* background-color: rgb(70, 10, 100); aq nulidan 255 mde*/ 
+  /* background-color: rgba(100, 25, 0, 0.5); aq aris igive magram iq bolos poacitia magas alpha qvia*/
+  /* background-color: #FFFFFF;da aq aris karoche 0123456789abcdef sheileba kido ori cifris mimateba rogorc rgbashi */
+  
+}

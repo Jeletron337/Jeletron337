@@ -1,0 +1,86 @@
+.header {
+  text-align: center;
+}
+
+.main {
+  background-color: #ceecff;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.par {
+  justify-content: center;
+  margin-top: 20px;
+  display: flex;
+}
+.forms {
+  display: flex;
+  flex-flow: column;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.radio {
+  flex-flow: column;
+  display: flex;
+  align-items: start;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.favourite {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.checkbox {
+  margin-top: 20px;
+  display: flex;
+  align-items: start;
+}
+.rame {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.psami {
+  justify-content: center;
+  display: flex;
+}
+.p4 {
+  justify-content: center;
+  margin-bottom: 20px;
+  display: flex;
+}
+.textarea {
+  display: flex;
+  margin: auto;
+  padding: 10px;
+}
+textarea {
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+label {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.button {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.contens {
+  display: flex;
+}
+.first {
+  display: flex;
+  vertical-align: baseline;
+}

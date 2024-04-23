@@ -1,0 +1,31 @@
+h1,
+nav,
+ol,
+li {
+  display: inline-block;
+  font-family: "poppins", sans-serif;
+}
+li {
+  margin: 10px 10px;
+}
+
+h1 {
+  margin-left: 70px;
+}
+
+nav {
+  margin-left: 200px;
+}
+main {
+  position: relative; /*es nishnavs rom rac masshi chaiwereba sul iqneba damokidebuli masze anu misi mshobliuri iqneba */
+}
+.text {
+  position: absolute;
+  left: 100px;
+  top: 50px;
+}
+header{
+    position: fixed;
+    background-color: white
+    
+}
